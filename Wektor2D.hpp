@@ -13,10 +13,8 @@ public:
     }
     Wektor2D(double a, double b) : x(a), y(b) 
     {
-        cout << "Współrzędne wektora = "<< x << ", "<< y << "\n";
     }
     ~Wektor2D() {
-        cout << "Dekonstruktor, współrzędne wektora = "<< x << ", "<< y <<"\n";
     }
 
     // static int populacja() {
@@ -42,7 +40,6 @@ public:
     }
 
     void print() {
-        cout << "Współrzędne wektora = " << x << ", " << y << ")\n";
     }
     Wektor2D operator+(Wektor2D &w1)
     {   
